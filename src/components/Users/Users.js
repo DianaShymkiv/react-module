@@ -8,7 +8,7 @@ const Users = () => {
         getUsers().then(value => setUsers(value));
     }, []);
     return (
-        <div>
+        <div className='w50 border'>
             {users.map(value => <User key={value.id} user={value}/>)}
         </div>
     );

@@ -2,10 +2,10 @@ import React from 'react';
 
 const Post = ({post}) => {
     return (
-        <div>
-            <div>userId: {post.userId}</div>
-            <div>tittle: {post.title}</div>
-            <div>body: {post.body}</div>
+        <div className='block'>
+            <div><b>userId:</b> {post.userId}</div>
+            <div><b>tittle:</b> {post.title}</div>
+            <div><b>body:</b> {post.body}</div>
         </div>
     );
 };

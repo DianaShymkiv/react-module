@@ -7,9 +7,10 @@ const Posts = () => {
     useEffect(() => {
         getPosts().then(value => setPosts(value));
     },[]);
+    const filteredPosts = posts.filter(post => post.userId === 1);
     return (
-        <div>
-            {posts.map(value => <Post key={value.id} post={value}/>)}
+        <div className='w50 border'>
+            {filteredPosts.map(value => <Post key={value.id} post={value}/>)}
         </div>
     );
 };
