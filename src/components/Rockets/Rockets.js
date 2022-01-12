@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {getRockets} from "../services/api";
+import {getRockets} from "../../services/api";
 import Rocket from "../Rocket/Rocket";
 
 const Rockets = () => {
