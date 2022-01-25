@@ -1,0 +1,11 @@
+.button {
+    margin-top: 10px;
+    background-color: #e79898;
+    border: 1px solid #a26c6c;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.text div {
+    margin-top: 2px;
+}

@@ -1,0 +1,11 @@
+.text {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    margin: 100px;
+}
+
+span {
+    color: #e79898;
+}

@@ -1,0 +1,10 @@
+.post {
+    color: black;
+    text-decoration: none;
+}
+
+.post:hover {
+    text-decoration: underline;
+    color: #ef9e9e;
+}
+

@@ -1,0 +1,10 @@
+.text {
+    border-radius: 3px;
+    border: 1px solid #7c7b7b;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.text div {
+    margin: 2px;
+}

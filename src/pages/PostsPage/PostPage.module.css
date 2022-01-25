@@ -1,0 +1,10 @@
+.outlet {
+    width: 450px;
+    margin: 100px 30px 100px 200px;
+
+}
+
+.flex {
+    display: flex;
+}
+

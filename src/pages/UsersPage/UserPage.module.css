@@ -1,0 +1,15 @@
+.outlet {
+    width: 600px;
+    margin: 50px 30px 100px 150px;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.text {
+    margin: 50px 30px 40px 100px;
+    width: 400px;
+}
+

@@ -1,0 +1,9 @@
+.user {
+    color: black;
+    text-decoration: none;
+}
+
+.user:hover {
+    text-decoration: underline;
+    color: #ef9e9e;
+}
