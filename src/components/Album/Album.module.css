@@ -1,0 +1,9 @@
+.album {
+    color: black;
+    text-decoration: none;
+}
+
+.album:hover {
+    text-decoration: underline;
+    color: #ef9e9e;
+}

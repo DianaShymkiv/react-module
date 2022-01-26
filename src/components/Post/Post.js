@@ -9,7 +9,7 @@ const Post = ({post}) => {
         <div>
             <ul>
                 <li>
-                    <Link to={id.toString()} state={post}  className={css.post}> {title} </Link>
+                    <Link to={id.toString()} state={post} className={css.post}> {title} </Link>
                 </li>
             </ul>
         </div>

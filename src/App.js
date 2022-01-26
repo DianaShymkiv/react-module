@@ -2,9 +2,10 @@ import {Route, Routes} from "react-router-dom";
 
 import Layout from "./components/Layout/Layout";
 import {
+    AlbumsPage,
     CommentsPage,
     HomePage,
-    NotFoundPage,
+    NotFoundPage, PhotosPage,
     PostsPage,
     SinglePostPage,
     SingleUserPage,
@@ -21,6 +22,9 @@ function App() {
                     <Route path={'users'} element={<UsersPage/>}>
                         <Route path={':id'} element={<SingleUserPage/>}>
                             <Route path={'userPosts'} element={<UserPostsPage/>}/>
+                        </Route>
+                        <Route path={':id/albums'} element={<AlbumsPage/>}>
+                            <Route path={':albumId/photos'} element={<PhotosPage/>}/>
                         </Route>
                     </Route>
                     <Route path={'posts'} element={<PostsPage/>}>

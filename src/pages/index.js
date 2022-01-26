@@ -6,3 +6,5 @@ export * from './HomePage/HomePage';
 export * from './CommentsPage/CommentsPage';
 export * from './SingleUserPage/SingleUserPage';
 export * from './UserPostsPage/UserPostsPage';
+export * from './AlbumPage/AlbumsPage';
+export * from './PhotosPage/PhotosPage';
