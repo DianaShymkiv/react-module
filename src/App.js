@@ -45,25 +45,27 @@ function App() {
 
     return (
         <div>
-            <form onSubmit={handleSubmit}>
-                <div>
-                    <label>Add Cat: <input type="text" name='cat' value={form.cat} onChange={onChange}/></label>
-                    <button>Save</button>
-                </div>
-            </form>
-            <form onSubmit={handleSubmit}>
-                <div>
-                    <label>Add Dog: <input type="text" name='dog' value={form.dog} onChange={onChange}/></label>
-                    <button>Save</button>
-                </div>
-            </form>
+            <div className={'flex'}>
+                <form onSubmit={handleSubmit} className={'margin'}>
+                    <div>
+                        <label>Add Cat: <input type="text" name='cat' value={form.cat} onChange={onChange}/></label>
+                        <button>Save</button>
+                    </div>
+                </form>
+                <form onSubmit={handleSubmit}>
+                    <div>
+                        <label>Add Dog: <input type="text" name='dog' value={form.dog} onChange={onChange}/></label>
+                        <button>Save</button>
+                    </div>
+                </form>
+            </div>
             <hr/>
             <div className={'flex'}>
-                <div>
+                <div className={'margin'}>
                     {state.cats && state.cats.map(((value, index) => <Cat key={index} cat={value} index={index}
                                                                           deleteAnimal={deleteAnimal}/>))}
                 </div>
-                <div>
+                <div className={'margin'}>
                     {state.dogs && state.dogs.map(((value, index) => <Dog key={index} dog={value} index={index}
                                                                           deleteAnimal={deleteAnimal}/>))}
                 </div>
