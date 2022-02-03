@@ -1,14 +1,14 @@
 import {useForm} from "react-hook-form";
 import {useDispatch} from "react-redux";
 
-import {addCar} from "../../store";
+import {createCar} from "../../store";
 
 const Form = () => {
     const {handleSubmit, register,reset} = useForm();
     const dispatch = useDispatch();
 
     const submit = (data) => {
-      dispatch(addCar({data}))
+      dispatch(createCar({data}))
       reset();
     }
 
